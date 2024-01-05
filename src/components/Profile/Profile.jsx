@@ -10,7 +10,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
                     alt={username}
                 />
                 <Name>{username}</Name>
-                <Tag>{tag}</Tag>
+                <Tag>@{tag}</Tag>
                 <Location>{location}</Location>
             </Description>
 
